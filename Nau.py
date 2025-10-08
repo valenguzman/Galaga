@@ -16,16 +16,16 @@ def main():
     while not sortir:
         op = input('Entra una opció: ')
         if op=='d':
-            pass
+            posX=posX+1
             #sumar 1 a la variable posX
         elif op=='a':
-            pass
+            posX=posX-1
             #restar 1 a la variable posX
         elif op=='w':
-            pass
+            posY=posY+1
             #sumar 1 a la variable posY
         elif op=='s':
-            pass
+            posY=posY-1
             #restar 1 a la variable posY
         elif op=='0':
             sortir=True
